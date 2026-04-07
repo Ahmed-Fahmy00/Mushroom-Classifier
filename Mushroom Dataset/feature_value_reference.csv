@@ -1,0 +1,120 @@
+Column_Name,Code_Value,Real_Life_Meaning,Frequency_in_Dataset
+class,e,Edible - Safe for human consumption,4208
+class,p,Poisonous - Toxic to humans,3916
+cap-shape,b,Bell-shaped cap,452
+cap-shape,c,Conical cap,4
+cap-shape,f,Flat cap,3152
+cap-shape,k,Knobbed cap (has a bump in center),828
+cap-shape,s,Sunken cap (depressed center),32
+cap-shape,x,Convex cap (umbrella-like),3656
+cap-surface,f,Fibrous surface,2320
+cap-surface,g,Grooves on surface,4
+cap-surface,s,Smooth surface,2556
+cap-surface,y,Scaly surface,3244
+cap-color,b,Buff/tan color,168
+cap-color,c,Cinnamon/reddish-brown,44
+cap-color,e,Red color,1500
+cap-color,g,Gray color,1840
+cap-color,n,Brown color,2284
+cap-color,p,Pink color,144
+cap-color,r,Green color,16
+cap-color,u,Purple color,16
+cap-color,w,White color,1040
+cap-color,y,Yellow color,1072
+bruises,f,"No bruises (firm, intact surface)",4748
+bruises,t,Bruises present on cap,3376
+odor,a,Almond-like pleasant odor,400
+odor,c,Creosote odor,192
+odor,f,Foul/rotten odor,2160
+odor,l,Anise/licorice odor,400
+odor,m,Musty/damp odor,36
+odor,n,No odor (neutral),3528
+odor,p,Pungent/sharp odor,256
+odor,s,Spicy odor,576
+odor,y,Fishy odor,576
+gill-attachment,a,Attached to stalk,210
+gill-attachment,f,Free with frill,7914
+gill-spacing,c,Close gills (crowded together),6812
+gill-spacing,w,Wide gills,1312
+gill-size,b,Broad (wide) gills,5612
+gill-size,n,Narrow gills,2512
+gill-color,b,Buff/tan color,1728
+gill-color,e,Red color,96
+gill-color,g,Gray color,752
+gill-color,h,Chocolate color,732
+gill-color,k,Black color,408
+gill-color,n,Brown color,1048
+gill-color,o,Orange color,64
+gill-color,p,Pink color,1492
+gill-color,r,[No mapping available],24
+gill-color,u,[No mapping available],492
+gill-color,w,White color,1202
+gill-color,y,Yellow color,86
+stalk-shape,e,Equal (same width throughout),3516
+stalk-shape,t,Tapering (gets narrower toward base),4608
+stalk-root,?,Missing/Unknown value,2480
+stalk-root,b,Bulbous base (swollen root),3776
+stalk-root,c,Club-shaped base,556
+stalk-root,e,Equal width throughout,1120
+stalk-root,r,Rooted (has rootlets),192
+stalk-surface-above-ring,f,Fibrous texture,552
+stalk-surface-above-ring,k,Silky texture,2372
+stalk-surface-above-ring,s,Smooth texture,5176
+stalk-surface-above-ring,y,Scaly texture,24
+stalk-surface-below-ring,f,Fibrous texture,600
+stalk-surface-below-ring,k,Silky texture,2304
+stalk-surface-below-ring,s,Smooth texture,4936
+stalk-surface-below-ring,y,Scaly texture,284
+stalk-color-above-ring,b,Buff/tan color,432
+stalk-color-above-ring,c,Cinnamon/reddish-brown,36
+stalk-color-above-ring,e,Red color,96
+stalk-color-above-ring,g,Gray color,576
+stalk-color-above-ring,n,Brown color,448
+stalk-color-above-ring,o,Orange color,192
+stalk-color-above-ring,p,Pink color,1872
+stalk-color-above-ring,w,White color,4464
+stalk-color-above-ring,y,Yellow color,8
+stalk-color-below-ring,b,Buff/tan color,432
+stalk-color-below-ring,c,Cinnamon/reddish-brown,36
+stalk-color-below-ring,e,Red color,96
+stalk-color-below-ring,g,Gray color,576
+stalk-color-below-ring,n,Brown color,512
+stalk-color-below-ring,o,Orange color,192
+stalk-color-below-ring,p,Pink color,1872
+stalk-color-below-ring,w,White color,4384
+stalk-color-below-ring,y,Yellow color,24
+veil-type,p,Partial veil (ring on stalk),8124
+veil-color,n,Brown color,96
+veil-color,o,Orange color,96
+veil-color,w,White color,7924
+veil-color,y,Yellow color,8
+ring-number,n,No ring present,36
+ring-number,o,One ring,7488
+ring-number,t,Two rings,600
+ring-type,e,Evanescent (disappearing ring),2776
+ring-type,f,Flaring (spreads outward from stalk),48
+ring-type,l,Large/grooved ring,1296
+ring-type,n,No ring present,36
+ring-type,p,Pendant (hanging ring),3968
+spore-print-color,b,Buff/tan color,48
+spore-print-color,h,Chocolate color,1632
+spore-print-color,k,Black color,1872
+spore-print-color,n,Brown color,1968
+spore-print-color,o,Orange color,48
+spore-print-color,r,Green color,72
+spore-print-color,u,Purple color,48
+spore-print-color,w,White color,2388
+spore-print-color,y,Yellow color,48
+population,a,Abundant (many mushrooms in area),384
+population,c,Clustered (grouped together),340
+population,n,Numerous (common in the area),400
+population,s,Scattered (spread out),1248
+population,v,Several (moderate number),4040
+population,y,Solitary/single mushroom,1712
+habitat,d,Desert habitat,3148
+habitat,g,Grassy area,2148
+habitat,l,Leaves (forest floor),832
+habitat,m,Meadow,292
+habitat,p,Paths/disturbed areas,1144
+habitat,u,Urban areas,368
+habitat,w,Waste areas,192
