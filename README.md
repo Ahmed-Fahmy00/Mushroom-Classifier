@@ -26,17 +26,15 @@ This repository includes exploratory and final-phase notebooks for:
 |   `-- mushrooms 2.csv
 |-- reports/
 `-- src/
-	|-- comprehensive_data_mining_notebook.ipynb
 	|-- Final Phase 1.ipynb
 	`-- model_notebooks/
-		|-- association_mining_comparison.ipynb
 		|-- categorical_NB_classifier.ipynb
 		|-- dbscan_clustering.ipynb
 		|-- decision_tree_classifier.ipynb
 		|-- kmeans_clustering.ipynb
 		|-- knn_classifier.ipynb
 		|-- logistic_regression_classifier.ipynb
-		|-- phase_final_mushroom_clean.ipynb
+		|-- model_feature_rules.py
 		|-- random_forest_classifier.ipynb
 		|-- svm_classifier.ipynb
 		`-- test.ipynb
@@ -61,6 +59,10 @@ This repository includes exploratory and final-phase notebooks for:
 ### Pattern Mining
 
 - Association rule mining comparisons (`apyori`, `pyfpgrowth`, `pyECLAT`)
+
+### Reusable Model Utilities
+
+- `src/model_notebooks/model_feature_rules.py` provides association-inspired lift scoring to rank useful feature columns for classification notebooks.
 
 ## Requirements
 
@@ -114,10 +116,9 @@ jupyter notebook
 
 If you are new to the project, use this order:
 
-1. `src/model_notebooks/phase_final_mushroom_clean.ipynb` for data cleaning and baseline preparation.
-2. Classifier notebooks in `src/model_notebooks/` (e.g., KNN, Random Forest, SVM).
-3. Clustering notebooks (`kmeans_clustering.ipynb`, `dbscan_clustering.ipynb`).
-4. `association_mining_comparison.ipynb` for association rules.
+1. Classifier notebooks in `src/model_notebooks/` (e.g., KNN, Random Forest, SVM).
+2. Clustering notebooks (`kmeans_clustering.ipynb`, `dbscan_clustering.ipynb`).
+3. Use `src/model_notebooks/model_feature_rules.py` in any classifier notebook when you want data-driven feature subset suggestions.
 
 ## Dataset Notes
 
