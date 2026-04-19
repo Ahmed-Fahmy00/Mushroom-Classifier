@@ -29,15 +29,10 @@ This repository includes exploratory and final-phase notebooks for:
 	|-- Final Phase 1.ipynb
 	`-- model_notebooks/
 		|-- categorical_NB_classifier.ipynb
-		|-- dbscan_clustering.ipynb
 		|-- decision_tree_classifier.ipynb
-		|-- kmeans_clustering.ipynb
 		|-- knn_classifier.ipynb
-		|-- logistic_regression_classifier.ipynb
-		|-- model_feature_rules.py
 		|-- random_forest_classifier.ipynb
 		|-- svm_classifier.ipynb
-		`-- test.ipynb
 ```
 
 ## Models and Analyses Included
@@ -46,25 +41,11 @@ This repository includes exploratory and final-phase notebooks for:
 
 - Categorical Naive Bayes
 - K-Nearest Neighbors (KNN)
-- Logistic Regression
 - Decision Tree
 - Random Forest
 - Support Vector Machine (SVM)
 
-### Unsupervised Learning
-
-- K-Means clustering
-- DBSCAN clustering
-
-### Pattern Mining
-
-- Association rule mining comparisons (`apyori`, `pyfpgrowth`, `pyECLAT`)
-
-### Reusable Model Utilities
-
-- `src/model_notebooks/model_feature_rules.py` provides association-inspired lift scoring to rank useful feature columns for classification notebooks.
-
-## Requirements
+## Requiements
 
 Main dependencies are listed in `requirements.txt`:
 
@@ -116,9 +97,8 @@ jupyter notebook
 
 If you are new to the project, use this order:
 
-1. Classifier notebooks in `src/model_notebooks/` (e.g., KNN, Random Forest, SVM).
-2. Clustering notebooks (`kmeans_clustering.ipynb`, `dbscan_clustering.ipynb`).
-3. Use `src/model_notebooks/model_feature_rules.py` in any classifier notebook when you want data-driven feature subset suggestions.
+1. Classifier notebooks in `src/model_notebooks/` (e.g., KNN, Random Forest, SVM).w
+2. Use `src/model_notebooks/model_feature_rules.py` in any classifier notebook when you want data-driven feature subset suggestions.
 
 ## Dataset Notes
 
